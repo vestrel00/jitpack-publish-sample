@@ -22,10 +22,17 @@ android {
 }
 
 dependencies {
-
+    implementation 'com.github.vestrel00:jitpack-publish-sample:1.0.0'
 
     // Pretend that this sample app is not in the same repo as the published module.
     // Otherwise, it would look like this.
     // implementation project(':module1')
     // implementation project(':module2')
+}
+
+// This should be in the root build.gradle in your app. This is only here in this sample project
+// to prove that you don't need this for publishing your library modules. It is only needed when
+// pulling dependencies published in jitpack.
+repositories {
+    maven { url "https://jitpack.io" }
 }
