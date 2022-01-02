@@ -20,3 +20,12 @@ android {
         jvmTarget = JavaVersion.VERSION_11
     }
 }
+
+dependencies {
+
+
+    // Pretend that this sample app is not in the same repo as the published module.
+    // Otherwise, it would look like this.
+    // implementation project(':module1')
+    // implementation project(':module2')
+}

@@ -13,5 +13,8 @@ class MainActivity : Activity() {
                 Hey there!
             """.trimIndent()
         })
+
+//        module1String
+//        module2String
     }
 }
